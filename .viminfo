@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1545365097,,"wq"
+|2,0,1545365898,,"wq"
 :q
 |2,0,1545353469,,"q"
 :Q
@@ -197,9 +197,9 @@ $
 "0	LINE	0
 	                print(bcolors.WARNING + 'Nothing to terminate. Returning to index page...' + bcolors.ENDC)
 |3,0,0,1,1,0,1545353458,"                print(bcolors.WARNING + 'Nothing to terminate. Returning to index page...' + bcolors.ENDC)"
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1545365095,""
+|3,0,1,1,1,0,1545365095,""
 "2	LINE	0
 	source ~/.gitcompletion
 |3,0,2,1,1,0,1545365093,"source ~/.gitcompletion"
@@ -224,39 +224,49 @@ $
 "9	LINE	0
 	kercheep.xrtc.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMO4WPVwn6pdPWLqL02zS0R9834NqPWYsxBMtlo9ApIgIGVaZhelNo7+K9p0Nrp9RnDhCPYwPBvVCwCGNg9mVTQ=
 |3,0,9,1,1,0,1545335677,"kercheep.xrtc.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMO4WPVwn6pdPWLqL02zS0R9834NqPWYsxBMtlo9ApIgIGVaZhelNo7+K9p0Nrp9RnDhCPYwPBvVCwCGNg9mVTQ="
-"-	CHAR	0
-	-
-|3,0,36,0,1,0,1545365031,"-"
+""-	CHAR	0
+	v
+|3,1,36,0,1,0,1545365894,"v"
 
 # File marks:
-'0  116  0  ~/.bashrc
-|4,48,116,0,1545365097,"~/.bashrc"
-'1  117  13  ~/.bashrc
-|4,49,117,13,1545365034,"~/.bashrc"
-'2  118  13  ~/.bashrc
-|4,50,118,13,1545365034,"~/.bashrc"
-'3  117  0  ~/.bashrc
-|4,51,117,0,1545365009,"~/.bashrc"
-'4  117  0  ~/.bashrc
-|4,52,117,0,1545365009,"~/.bashrc"
-'5  117  0  ~/.bashrc
-|4,53,117,0,1545365009,"~/.bashrc"
-'6  117  0  ~/.bashrc
-|4,54,117,0,1545365009,"~/.bashrc"
-'7  79  34  ~/.bashrc
-|4,55,79,34,1545364687,"~/.bashrc"
-'8  79  34  ~/.bashrc
-|4,56,79,34,1545364687,"~/.bashrc"
-'9  79  34  ~/.bashrc
-|4,57,79,34,1545364687,"~/.bashrc"
+'0  91  29  ~/.bashrc
+|4,48,91,29,1545365899,"~/.bashrc"
+'1  119  0  ~/.bashrc
+|4,49,119,0,1545365097,"~/.bashrc"
+'2  116  0  ~/.bashrc
+|4,50,116,0,1545365097,"~/.bashrc"
+'3  120  13  ~/.bashrc
+|4,51,120,13,1545365034,"~/.bashrc"
+'4  121  13  ~/.bashrc
+|4,52,121,13,1545365034,"~/.bashrc"
+'5  117  13  ~/.bashrc
+|4,53,117,13,1545365034,"~/.bashrc"
+'6  118  13  ~/.bashrc
+|4,54,118,13,1545365034,"~/.bashrc"
+'7  120  0  ~/.bashrc
+|4,55,120,0,1545365009,"~/.bashrc"
+'8  120  0  ~/.bashrc
+|4,56,120,0,1545365009,"~/.bashrc"
+'9  120  0  ~/.bashrc
+|4,57,120,0,1545365009,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  91  29  ~/.bashrc
+|4,39,91,29,1545365899,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1545365805,"~/.bashrc"
+-'  119  0  ~/.bashrc
+|4,39,119,0,1545365097,"~/.bashrc"
 -'  116  0  ~/.bashrc
 |4,39,116,0,1545365097,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1545365078,"~/.bashrc"
 -'  117  0  ~/.bashrc
 |4,39,117,0,1545365078,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1545365073,"~/.bashrc"
+-'  121  13  ~/.bashrc
+|4,39,121,13,1545365034,"~/.bashrc"
 -'  118  13  ~/.bashrc
 |4,39,118,13,1545365034,"~/.bashrc"
 -'  1  0  ~/.bashrc
@@ -267,6 +277,8 @@ $
 |4,39,117,0,1545365009,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1545364978,"~/.bashrc"
+-'  79  34  ~/.bashrc
+|4,39,79,34,1545364687,"~/.bashrc"
 -'  79  34  ~/.bashrc
 |4,39,79,34,1545364687,"~/.bashrc"
 -'  79  34  ~/.bashrc
@@ -309,6 +321,70 @@ $
 |4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
 -'  107  0  ~/panel_gen/panel_gen.py
 |4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  107  0  ~/panel_gen/panel_gen.py
+|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
+-'  1  0  ~/panel_gen
+|4,39,1,0,1545353453,"~/panel_gen"
 -'  1  0  ~/panel_gen
 |4,39,1,0,1545353453,"~/panel_gen"
 -'  1  0  ~/panel_gen
@@ -375,94 +451,24 @@ $
 |4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
 -'  12  9  ~/panel_gen/templates/index.html
 |4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
--'  1  0  ~/panel_gen/templates/index.html
-|4,39,1,0,1545353311,"~/panel_gen/templates/index.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bashrc
-	*	1545365097	0
-	"	116	0
-	.	117	0
+	*	1545365898	0
+	"	91	29
+	^	91	30
+	.	91	29
 	+	83	4
 	+	79	34
-	+	117	28
-	+	116	2
-	+	117	0
+	+	120	28
+	+	119	2
+	+	120	0
+	+	89	26
+	+	90	35
+	+	89	0
+	+	90	32
+	+	91	29
 
 > ~/panel_gen/panel_gen.py
 	*	1545353466	0
