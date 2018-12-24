@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/kercheep
+~MSle0~/ui
 
 # Last Substitute Search Pattern:
 ~MSle0&Download
@@ -21,13 +21,15 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1545365898,,"wq"
+|2,0,1545642495,,"wq"
+:q!
+|2,0,1545641187,,"q!"
 :q
-|2,0,1545353469,,"q"
+|2,0,1545641185,,"q"
+:w
+|2,0,1545379212,,"w"
 :Q
 |2,0,1545353466,,"Q"
-:w
-|2,0,1545353323,,"w"
 :e ../../templates/index.html
 |2,0,1544512704,,"e ../../templates/index.html"
 :e form_validation_complete.php
@@ -38,8 +40,6 @@ $
 |2,0,1544404045,,"s/Download/Start"
 :s/Start/Stop
 |2,0,1544404036,,"s/Start/Stop"
-:q!
-|2,0,1543725022,,"q!"
 :cq
 |2,0,1527524641,,"cq"
 :help holy-grail
@@ -122,8 +122,14 @@ $
 |2,0,0,,"wq~"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1545542613,63,"\\a"
 ? @$
-|2,1,1545353453,,"@$"
+|2,1,1545542613,,"@$"
+?/ui
+|2,1,1545379185,47,"ui"
+?/GCC
+|2,1,1545366045,47,"GCC"
 ?/kercheep
 |2,1,1545335669,47,"kercheep"
 ?/down
@@ -195,286 +201,327 @@ $
 
 # Registers:
 "0	LINE	0
-	                print(bcolors.WARNING + 'Nothing to terminate. Returning to index page...' + bcolors.ENDC)
-|3,0,0,1,1,0,1545353458,"                print(bcolors.WARNING + 'Nothing to terminate. Returning to index page...' + bcolors.ENDC)"
+	
+|3,0,0,1,1,0,1545542618,""
 "1	LINE	0
 	
-|3,0,1,1,1,0,1545365095,""
+|3,0,1,1,1,0,1545379593,""
 "2	LINE	0
-	source ~/.gitcompletion
-|3,0,2,1,1,0,1545365093,"source ~/.gitcompletion"
+	
+|3,0,2,1,1,0,1545379584,""
 "3	LINE	0
-	                print(bcolors.WARNING + 'Nothing to terminate. Returning to index page...' + bcolors.ENDC)
-|3,0,3,1,1,0,1545340647,"                print(bcolors.WARNING + 'Nothing to terminate. Returning to index page...' + bcolors.ENDC)"
+	
+|3,0,3,1,1,0,1545379208,""
 "4	LINE	0
-	                q = None
-|3,0,4,1,1,0,1545340026,"                q = None"
+	        self.paused_flag.release()
+|3,0,4,1,1,0,1545379206,"        self.paused_flag.release()"
 "5	LINE	0
-	                os.killpg(os.getpgid(q.pid), signal.SIGALRM)
-|3,0,5,1,1,0,1545340024,"                os.killpg(os.getpgid(q.pid), signal.SIGALRM)"
+	        self.paused_flag.notify()
+|3,0,5,1,1,0,1545379206,"        self.paused_flag.notify()"
 "6	LINE	0
-	                xb5_state = "Stopped"
-|3,0,6,1,1,0,1545339119,"                xb5_state = \"Stopped\""
+	        self.paused = False
+|3,0,6,1,1,0,1545379205,"        self.paused = False"
 "7	LINE	0
-	                xb5_state = "Stoppeddd"
-|3,0,7,1,1,0,1545339116,"                xb5_state = \"Stoppeddd\""
+	    def resume(self):
+|3,0,7,1,1,0,1545379205,"    def resume(self):"
 "8	LINE	0
-	kercheep.xrtc.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMO4WPVwn6pdPWLqL02zS0R9834NqPWYsxBMtlo9ApIgIGVaZhelNo7+K9p0Nrp9RnDhCPYwPBvVCwCGNg9mVTQ=
-|3,0,8,1,1,0,1545335679,"kercheep.xrtc.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMO4WPVwn6pdPWLqL02zS0R9834NqPWYsxBMtlo9ApIgIGVaZhelNo7+K9p0Nrp9RnDhCPYwPBvVCwCGNg9mVTQ="
+	        self.paused_flag.acquire()
+|3,0,8,1,1,0,1545379203,"        self.paused_flag.acquire()"
 "9	LINE	0
-	kercheep.xrtc.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMO4WPVwn6pdPWLqL02zS0R9834NqPWYsxBMtlo9ApIgIGVaZhelNo7+K9p0Nrp9RnDhCPYwPBvVCwCGNg9mVTQ=
-|3,0,9,1,1,0,1545335677,"kercheep.xrtc.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMO4WPVwn6pdPWLqL02zS0R9834NqPWYsxBMtlo9ApIgIGVaZhelNo7+K9p0Nrp9RnDhCPYwPBvVCwCGNg9mVTQ="
+	    def pause(self):
+	        self.paused = True
+|3,0,9,1,2,0,1545379200,"    def pause(self):","        self.paused = True"
 ""-	CHAR	0
-	v
-|3,1,36,0,1,0,1545365894,"v"
+	#
+|3,1,36,0,1,0,1545641049,"#"
 
 # File marks:
-'0  91  29  ~/.bashrc
-|4,48,91,29,1545365899,"~/.bashrc"
-'1  119  0  ~/.bashrc
-|4,49,119,0,1545365097,"~/.bashrc"
-'2  116  0  ~/.bashrc
-|4,50,116,0,1545365097,"~/.bashrc"
-'3  120  13  ~/.bashrc
-|4,51,120,13,1545365034,"~/.bashrc"
-'4  121  13  ~/.bashrc
-|4,52,121,13,1545365034,"~/.bashrc"
-'5  117  13  ~/.bashrc
-|4,53,117,13,1545365034,"~/.bashrc"
-'6  118  13  ~/.bashrc
-|4,54,118,13,1545365034,"~/.bashrc"
-'7  120  0  ~/.bashrc
-|4,55,120,0,1545365009,"~/.bashrc"
-'8  120  0  ~/.bashrc
-|4,56,120,0,1545365009,"~/.bashrc"
-'9  120  0  ~/.bashrc
-|4,57,120,0,1545365009,"~/.bashrc"
+'0  92  35  ~/.bashrc
+|4,48,92,35,1545642495,"~/.bashrc"
+'1  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,49,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+'2  48  0  ~/panel_gen/http-server.py
+|4,50,48,0,1545596371,"~/panel_gen/http-server.py"
+'3  265  73  ~/panel_gen/panel_gen.py
+|4,51,265,73,1545588244,"~/panel_gen/panel_gen.py"
+'4  21  0  /etc/network/if-up.d/upstart
+|4,52,21,0,1545542626,"/etc/network/if-up.d/upstart"
+'5  592  0  ~/panel_gen/panel_gen.py
+|4,53,592,0,1545379604,"~/panel_gen/panel_gen.py"
+'6  592  0  ~/panel_gen/panel_gen.py
+|4,54,592,0,1545379604,"~/panel_gen/panel_gen.py"
+'7  1  0  ~/panel_gen/panel_gen.py
+|4,55,1,0,1545379580,"~/panel_gen/panel_gen.py"
+'8  1  0  ~/panel_gen/panel_gen.py
+|4,56,1,0,1545379580,"~/panel_gen/panel_gen.py"
+'9  88  22  ~/.bashrc
+|4,57,88,22,1545379397,"~/.bashrc"
 
 # Jumplist (newest first):
--'  91  29  ~/.bashrc
-|4,39,91,29,1545365899,"~/.bashrc"
+-'  92  35  ~/.bashrc
+|4,39,92,35,1545642495,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545365805,"~/.bashrc"
--'  119  0  ~/.bashrc
-|4,39,119,0,1545365097,"~/.bashrc"
--'  116  0  ~/.bashrc
-|4,39,116,0,1545365097,"~/.bashrc"
--'  120  0  ~/.bashrc
-|4,39,120,0,1545365078,"~/.bashrc"
--'  117  0  ~/.bashrc
-|4,39,117,0,1545365078,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545365073,"~/.bashrc"
--'  121  13  ~/.bashrc
-|4,39,121,13,1545365034,"~/.bashrc"
--'  118  13  ~/.bashrc
-|4,39,118,13,1545365034,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545365018,"~/.bashrc"
--'  117  0  ~/.bashrc
-|4,39,117,0,1545365009,"~/.bashrc"
--'  117  0  ~/.bashrc
-|4,39,117,0,1545365009,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545364978,"~/.bashrc"
--'  79  34  ~/.bashrc
-|4,39,79,34,1545364687,"~/.bashrc"
--'  79  34  ~/.bashrc
-|4,39,79,34,1545364687,"~/.bashrc"
--'  79  34  ~/.bashrc
-|4,39,79,34,1545364687,"~/.bashrc"
--'  79  34  ~/.bashrc
-|4,39,79,34,1545364687,"~/.bashrc"
--'  79  34  ~/.bashrc
-|4,39,79,34,1545364687,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545364652,"~/.bashrc"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  107  0  ~/panel_gen/panel_gen.py
-|4,39,107,0,1545353469,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  1  0  ~/panel_gen
-|4,39,1,0,1545353453,"~/panel_gen"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
--'  12  9  ~/panel_gen/templates/index.html
-|4,39,12,9,1545353325,"~/panel_gen/templates/index.html"
+|4,39,1,0,1545642463,"~/.bashrc"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  265  73  ~/panel_gen/panel_gen.py
+|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  21  0  /etc/network/if-up.d/upstart
+|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  14  0  /etc/network/if-up.d
+|4,39,14,0,1545542613,"/etc/network/if-up.d"
+-'  13  0  /etc/network
+|4,39,13,0,1545542613,"/etc/network"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  1  0  /etc/network/interfaces.d
+|4,39,1,0,1545542607,"/etc/network/interfaces.d"
+-'  592  0  ~/panel_gen/panel_gen.py
+|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
+-'  592  0  ~/panel_gen/panel_gen.py
+|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
+-'  592  0  ~/panel_gen/panel_gen.py
+|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
+-'  592  0  ~/panel_gen/panel_gen.py
+|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
+-'  592  0  ~/panel_gen/panel_gen.py
+|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
+-'  592  0  ~/panel_gen/panel_gen.py
+|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bashrc
-	*	1545365898	0
-	"	91	29
-	^	91	30
-	.	91	29
+	*	1545642495	0
+	"	92	35
+	^	92	36
+	.	92	35
 	+	83	4
 	+	79	34
-	+	120	28
-	+	119	2
-	+	120	0
+	+	121	28
+	+	120	2
+	+	121	0
 	+	89	26
 	+	90	35
 	+	89	0
 	+	90	32
 	+	91	29
+	+	95	0
+	+	88	22
+	+	92	35
+
+> ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+	*	1545641184	0
+	"	22	17
+	^	22	18
+	.	22	18
+	+	1	2
+	+	22	18
+
+> ~/panel_gen/http-server.py
+	*	1545588492	0
+	"	48	0
+	.	94	0
+	+	81	34
+	+	83	66
+	+	84	0
+	+	76	0
+	+	84	42
+	+	84	75
+	+	85	42
+	+	91	26
+	+	93	32
+	+	94	0
 
 > ~/panel_gen/panel_gen.py
-	*	1545353466	0
-	"	107	0
-	.	44	46
+	*	1545588240	0
+	"	265	73
+	^	265	74
+	.	265	72
 	+	44	46
+	+	539	0
+	+	596	0
+	+	592	0
+	+	262	61
+	+	263	39
+	+	264	83
+	+	264	0
+	+	264	83
+	+	265	72
+
+> /etc/network/if-up.d/upstart
+	*	1545542626	0
+	"	21	0
 
 > ~/panel_gen/templates/index.html
 	*	1545353323	0
@@ -491,21 +538,6 @@ $
 	+	14	78
 	+	16	0
 	+	12	9
-
-> ~/panel_gen/http-server.py
-	*	1545340724	0
-	"	33	59
-	.	94	0
-	+	81	34
-	+	83	66
-	+	84	0
-	+	76	0
-	+	84	42
-	+	84	75
-	+	85	42
-	+	91	26
-	+	93	32
-	+	94	0
 
 > ~/panel_gen/static/css/skeleton.css
 	*	1545339944	0
