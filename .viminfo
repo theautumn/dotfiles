@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ui
+~MSle0~/export
 
 # Last Substitute Search Pattern:
 ~MSle0&Download
@@ -21,7 +21,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1545642495,,"wq"
+|2,0,1545707913,,"wq"
+:e .gitconfig
+|2,0,1545707340,,"e .gitconfig"
 :q!
 |2,0,1545641187,,"q!"
 :q
@@ -118,10 +120,10 @@ $
 |2,0,1492057329,,"e ~/Desktop/BatchCropandStraighten.jsx"
 :g800
 |2,0,1491881801,,"g800"
-:wq~
-|2,0,0,,"wq~"
 
 # Search String History (newest to oldest):
+?/export
+|2,1,1545707756,47,"export"
 ??\a
 |2,1,1545542613,63,"\\a"
 ? @$
@@ -203,69 +205,184 @@ $
 "0	LINE	0
 	
 |3,0,0,1,1,0,1545542618,""
-"1	LINE	0
+""1	LINE	0
+	# My special fancy aliases
+	alias panel_gen='sudo python /home/sarah/panel_gen/panel_gen.py'
+	alias apt='sudo apt-get'
+	alias cs='sudo apt-cache search'
+	alias asterisk='sudo asterisk'
+	alias secast='telnet 127.0.0.1 3000'
 	
-|3,0,1,1,1,0,1545379593,""
+|3,1,1,1,7,0,1545707905,"# My special fancy aliases","alias panel_gen='sudo python /home/sarah/panel_gen/panel_gen.py'","alias apt='sudo apt-get'","alias cs='sudo apt-cache search'","alias asterisk='sudo asterisk'","alias secast='telnet 127.0.0.1 3000'",""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1545379584,""
+|3,0,2,1,1,0,1545707888,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1545379208,""
+	#alias l='ls -CF'
+|3,0,3,1,1,0,1545707888,"#alias l='ls -CF'"
 "4	LINE	0
-	        self.paused_flag.release()
-|3,0,4,1,1,0,1545379206,"        self.paused_flag.release()"
+	#alias la='ls -A'
+|3,0,4,1,1,0,1545707887,"#alias la='ls -A'"
 "5	LINE	0
-	        self.paused_flag.notify()
-|3,0,5,1,1,0,1545379206,"        self.paused_flag.notify()"
+	#alias ll='ls -l'
+|3,0,5,1,1,0,1545707887,"#alias ll='ls -l'"
 "6	LINE	0
-	        self.paused = False
-|3,0,6,1,1,0,1545379205,"        self.paused = False"
+	# some more ls aliases
+|3,0,6,1,1,0,1545707886,"# some more ls aliases"
 "7	LINE	0
-	    def resume(self):
-|3,0,7,1,1,0,1545379205,"    def resume(self):"
+	
+|3,0,7,1,1,0,1545707853,""
 "8	LINE	0
-	        self.paused_flag.acquire()
-|3,0,8,1,1,0,1545379203,"        self.paused_flag.acquire()"
+	    #alias vdir='vdir --color=auto'
+|3,0,8,1,1,0,1545707847,"    #alias vdir='vdir --color=auto'"
 "9	LINE	0
-	    def pause(self):
-	        self.paused = True
-|3,0,9,1,2,0,1545379200,"    def pause(self):","        self.paused = True"
-""-	CHAR	0
-	#
-|3,1,36,0,1,0,1545641049,"#"
+	    #alias dir='dir --color=auto'
+|3,0,9,1,1,0,1545707845,"    #alias dir='dir --color=auto'"
+"-	CHAR	0
+	n
+|3,0,36,0,1,0,1545707669,"n"
 
 # File marks:
-'0  92  35  ~/.bashrc
-|4,48,92,35,1545642495,"~/.bashrc"
-'1  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,49,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
-'2  48  0  ~/panel_gen/http-server.py
-|4,50,48,0,1545596371,"~/panel_gen/http-server.py"
-'3  265  73  ~/panel_gen/panel_gen.py
-|4,51,265,73,1545588244,"~/panel_gen/panel_gen.py"
-'4  21  0  /etc/network/if-up.d/upstart
-|4,52,21,0,1545542626,"/etc/network/if-up.d/upstart"
-'5  592  0  ~/panel_gen/panel_gen.py
-|4,53,592,0,1545379604,"~/panel_gen/panel_gen.py"
-'6  592  0  ~/panel_gen/panel_gen.py
-|4,54,592,0,1545379604,"~/panel_gen/panel_gen.py"
-'7  1  0  ~/panel_gen/panel_gen.py
-|4,55,1,0,1545379580,"~/panel_gen/panel_gen.py"
-'8  1  0  ~/panel_gen/panel_gen.py
-|4,56,1,0,1545379580,"~/panel_gen/panel_gen.py"
-'9  88  22  ~/.bashrc
-|4,57,88,22,1545379397,"~/.bashrc"
+'0  97  0  ~/.bashrc
+|4,48,97,0,1545707913,"~/.bashrc"
+'1  50  0  ~/.screenrc
+|4,49,50,0,1545707733,"~/.screenrc"
+'2  6  3  ~/.gitconfig
+|4,50,6,3,1545707611,"~/.gitconfig"
+'3  85  35  ~/.bashrc
+|4,51,85,35,1545642495,"~/.bashrc"
+'4  92  35  ~/.bashrc
+|4,52,92,35,1545642495,"~/.bashrc"
+'5  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,53,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+'6  48  0  ~/panel_gen/http-server.py
+|4,54,48,0,1545596371,"~/panel_gen/http-server.py"
+'7  265  73  ~/panel_gen/panel_gen.py
+|4,55,265,73,1545588244,"~/panel_gen/panel_gen.py"
+'8  21  0  /etc/network/if-up.d/upstart
+|4,56,21,0,1545542626,"/etc/network/if-up.d/upstart"
+'9  592  0  ~/panel_gen/panel_gen.py
+|4,57,592,0,1545379604,"~/panel_gen/panel_gen.py"
 
 # Jumplist (newest first):
+-'  97  0  ~/.bashrc
+|4,39,97,0,1545707913,"~/.bashrc"
+-'  87  0  ~/.bashrc
+|4,39,87,0,1545707762,"~/.bashrc"
+-'  29  0  ~/.bashrc
+|4,39,29,0,1545707756,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1545707753,"~/.bashrc"
+-'  50  0  ~/.screenrc
+|4,39,50,0,1545707733,"~/.screenrc"
+-'  50  0  ~/.screenrc
+|4,39,50,0,1545707733,"~/.screenrc"
+-'  1  0  ~/.screenrc
+|4,39,1,0,1545707661,"~/.screenrc"
+-'  1  0  ~/.screenrc
+|4,39,1,0,1545707661,"~/.screenrc"
+-'  6  3  ~/.gitconfig
+|4,39,6,3,1545707611,"~/.gitconfig"
+-'  6  3  ~/.gitconfig
+|4,39,6,3,1545707611,"~/.gitconfig"
+-'  6  3  ~/.gitconfig
+|4,39,6,3,1545707611,"~/.gitconfig"
+-'  6  3  ~/.gitconfig
+|4,39,6,3,1545707611,"~/.gitconfig"
+-'  9  66  ~/.gitconfig
+|4,39,9,66,1545707499,"~/.gitconfig"
+-'  9  66  ~/.gitconfig
+|4,39,9,66,1545707499,"~/.gitconfig"
+-'  9  66  ~/.gitconfig
+|4,39,9,66,1545707499,"~/.gitconfig"
+-'  9  66  ~/.gitconfig
+|4,39,9,66,1545707499,"~/.gitconfig"
+-'  1  0  ~/.gitco
+|4,39,1,0,1545707340,"~/.gitco"
+-'  1  0  ~/.gitco
+|4,39,1,0,1545707340,"~/.gitco"
+-'  1  0  ~/.gitco
+|4,39,1,0,1545707340,"~/.gitco"
+-'  1  0  ~/.gitco
+|4,39,1,0,1545707340,"~/.gitco"
+-'  85  35  ~/.bashrc
+|4,39,85,35,1545642495,"~/.bashrc"
 -'  92  35  ~/.bashrc
 |4,39,92,35,1545642495,"~/.bashrc"
+-'  92  35  ~/.bashrc
+|4,39,92,35,1545642495,"~/.bashrc"
+-'  92  35  ~/.bashrc
+|4,39,92,35,1545642495,"~/.bashrc"
+-'  92  35  ~/.bashrc
+|4,39,92,35,1545642495,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1545642463,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1545642463,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1545642463,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1545642463,"~/.bashrc"
 -'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
 |4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
 -'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
 |4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
+-'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
+|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
 -'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
 |4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
 -'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
@@ -278,6 +395,62 @@ $
 |4,39,48,0,1545596371,"~/panel_gen/http-server.py"
 -'  48  0  ~/panel_gen/http-server.py
 |4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
+-'  48  0  ~/panel_gen/http-server.py
+|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
 -'  1  0  ~/panel_gen/http-server.py
 |4,39,1,0,1545588396,"~/panel_gen/http-server.py"
 -'  1  0  ~/panel_gen/http-server.py
@@ -286,199 +459,87 @@ $
 |4,39,1,0,1545588396,"~/panel_gen/http-server.py"
 -'  1  0  ~/panel_gen/http-server.py
 |4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  265  73  ~/panel_gen/panel_gen.py
-|4,39,265,73,1545588244,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  1  0  ~/panel_gen/panel_gen.py
-|4,39,1,0,1545586872,"~/panel_gen/panel_gen.py"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  21  0  /etc/network/if-up.d/upstart
-|4,39,21,0,1545542626,"/etc/network/if-up.d/upstart"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  14  0  /etc/network/if-up.d
-|4,39,14,0,1545542613,"/etc/network/if-up.d"
--'  13  0  /etc/network
-|4,39,13,0,1545542613,"/etc/network"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  1  0  /etc/network/interfaces.d
-|4,39,1,0,1545542607,"/etc/network/interfaces.d"
--'  592  0  ~/panel_gen/panel_gen.py
-|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
--'  592  0  ~/panel_gen/panel_gen.py
-|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
--'  592  0  ~/panel_gen/panel_gen.py
-|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
--'  592  0  ~/panel_gen/panel_gen.py
-|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
--'  592  0  ~/panel_gen/panel_gen.py
-|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
--'  592  0  ~/panel_gen/panel_gen.py
-|4,39,592,0,1545379604,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  1  0  ~/panel_gen/http-server.py
+|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bashrc
-	*	1545642495	0
-	"	92	35
-	^	92	36
-	.	92	35
-	+	83	4
+	*	1545707912	0
+	"	97	0
+	.	97	0
+	+	80	4
 	+	79	34
-	+	121	28
-	+	120	2
-	+	121	0
-	+	89	26
-	+	90	35
-	+	89	0
-	+	90	32
-	+	91	29
-	+	95	0
-	+	88	22
-	+	92	35
+	+	114	28
+	+	113	2
+	+	114	0
+	+	85	26
+	+	85	35
+	+	85	0
+	+	85	32
+	+	85	29
+	+	86	0
+	+	85	22
+	+	85	35
+	+	80	0
+	+	84	0
+	+	85	26
+	+	88	0
+	+	85	0
+	+	97	0
+
+> ~/.screenrc
+	*	1545707696	0
+	"	50	0
+	.	50	0
+	+	47	0
+	+	46	8
+	+	51	0
+	+	50	0
+
+> ~/.gitconfig
+	*	1545707609	0
+	"	6	3
+	^	6	4
+	.	6	4
+	+	5	29
+	+	2	0
+	+	9	72
+	+	7	79
+	+	9	4
+	+	9	68
+	+	46	24
+	+	12	3
+	+	16	2
+	+	17	2
+	+	20	3
+	+	21	3
+	+	22	3
+	+	23	1
+	+	24	3
+	+	25	3
+	+	26	3
+	+	29	3
+	+	30	3
+	+	31	3
+	+	34	3
+	+	35	3
+	+	38	3
+	+	39	3
+	+	40	3
+	+	41	1
+	+	44	3
+	+	45	3
+	+	46	3
+	+	6	4
+
+> ~/.gitco
+	*	1545707336	0
+	"	1	0
 
 > ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
 	*	1545641184	0
@@ -808,10 +869,6 @@ $
 > ~/Documents/adit.txt
 	*	1527486129	0
 	"	44	0
-
-> ~/.screenrc
-	*	1527486095	0
-	"	55	0
 
 > ~/Documents/uploading.csv
 	*	1527481642	0
@@ -1358,12 +1415,6 @@ $
 
 > ~/Documents/annex/.git/annex/config.tmp
 	"	1	0
-
-> ~/.gitconfig
-	"	5	29
-	^	5	30
-	.	5	29
-	+	5	29
 
 > ~/Documents/bsp/srs.sh
 	*	1474394406	0

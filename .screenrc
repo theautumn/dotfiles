@@ -43,13 +43,8 @@ termcapinfo   xterm 'XC=K%,%\E(B,[\304,\\\\\326,]\334,{\344,|\366,}\374,~\337'
 
 escape ``
 autodetach on
-vbell on
-vbell_msg "~~OH SNAP~~"
+vbell off
 startup_message off
 shelltitle "$|bash"
 
-#hardstatus alwayslastline "%{= KW}%-w%{= wk}%50>%n %t%{-}%+w%< %=[%H | %l | %D %C %a]"
-
 hardstatus alwayslastline '%{= M} %H%{= G} %l %= %{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w   %= %{c}%d %D %{B}%c '
-#hardstatus alwayslastline "%{= wd}%?%-Lw%?%{=br WB}%n*%f %t%{=r dw}%?(%u)%?%{= wd}%?%+Lw%?%{=r dw}"
-
