@@ -100,6 +100,7 @@ alias apt='sudo apt-get'
 alias cs='sudo apt-cache search'
 alias asterisk='sudo asterisk'
 alias secast='telnet 127.0.0.1 3000'
+alias gitwtf='git log --graph --oneline --decorate=full --all'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

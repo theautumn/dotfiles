@@ -49,7 +49,23 @@ nnoremap <space> za
 " Press F4 to toggle highlighting on/off, and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 
+" Fuck off with that paste indenting shit
+:set pastetoggle=off
+
 " Make vim pretty for Python
 set t_Co=256
 colorscheme molokai
 highlight Comment cterm=bold
+
+" Set tabstop and autoindent
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab"
+
+" play nice with YAML stuff
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+

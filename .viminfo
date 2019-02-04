@@ -11,189 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/export
+~MSle0~/print
 
 # Last Substitute Search Pattern:
-~MSle0&Download
+~MSle0&web
 
 # Last Substitute String:
-$
+$dark
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1545707913,,"wq"
-:e .gitconfig
-|2,0,1545707340,,"e .gitconfig"
-:q!
-|2,0,1545641187,,"q!"
 :q
-|2,0,1545641185,,"q"
+|2,0,1549241850,,"q"
+:wq
+|2,0,1549241764,,"wq"
 :w
-|2,0,1545379212,,"w"
+|2,0,1549241720,,"w"
+:e lines.py
+|2,0,1548828360,,"e lines.py"
+:w lines.py
+|2,0,1548828356,,"w lines.py"
 :Q
-|2,0,1545353466,,"Q"
-:e ../../templates/index.html
-|2,0,1544512704,,"e ../../templates/index.html"
-:e form_validation_complete.php
-|2,0,1544418279,,"e form_validation_complete.php"
+|2,0,1548746569,,"Q"
+:e templates/dark.html
+|2,0,1548660384,,"e templates/dark.html"
+:e templates/home.html
+|2,0,1548660373,,"e templates/home.html"
+:e http_server.py
+|2,0,1548660364,,"e http_server.py"
 :W
-|2,0,1544404847,,"W"
-:s/Download/Start
-|2,0,1544404045,,"s/Download/Start"
-:s/Start/Stop
-|2,0,1544404036,,"s/Start/Stop"
-:cq
-|2,0,1527524641,,"cq"
-:help holy-grail
-|2,0,1527524142,,"help holy-grail"
-:help 42
-|2,0,1527524115,,"help 42"
-:help uganda
-|2,0,1527524090,,"help uganda"
-::e ~/Documents/adit.txt
-|2,0,1527486125,,":e ~/Documents/adit.txt"
-:split README.md
-|2,0,1527486047,,"split README.md"
-:bd
-|2,0,1527486017,,"bd"
-:bn
-|2,0,1527485941,,"bn"
-:bp
-|2,0,1527485932,,"bp"
-:tabn
-|2,0,1527485891,,"tabn"
-:e ~/.vimrc
-|2,0,1527485829,,"e ~/.vimrc"
-:e ~/.vim/
-|2,0,1527485791,,"e ~/.vim/"
-:PluginInstall
-|2,0,1527485760,,"PluginInstall"
-:CtrlP
-|2,0,1527481638,,"CtrlP"
-:e ~/.vim/bundle/vim-airline/plugin/airline.vim
-|2,0,1527060196,,"e ~/.vim/bundle/vim-airline/plugin/airline.vim"
-:e Documents/collection.txt.txt
-|2,0,1527060171,,"e Documents/collection.txt.txt"
-:Helptags
-|2,0,1527059181,,"Helptags"
-:e .bash_profile
-|2,0,1527058240,,"e .bash_profile"
-:wq!
-|2,0,1511765258,,"wq!"
-:e /Users/sarah/.config/
-|2,0,1510292285,,"e /Users/sarah/.config/"
-:w!
-|2,0,1506844284,,"w!"
-:$s/.pdf,//
-|2,0,1499363701,,"$s/.pdf,//"
-:$s/\.pdf\,//
-|2,0,1499363674,,"$s/\\.pdf\\,//"
-:%s/^.\{0,10\}//
-|2,0,1499363622,,"%s/^.\\{0,10\\}//"
-:%s/^.\{0,5\}//
-|2,0,1499363602,,"%s/^.\\{0,5\\}//"
-:w titles_recovered.csv
-|2,0,1499292815,,"w titles_recovered.csv"
-:%s/LTD/Local Test Desk/g
-|2,0,1499290168,,"%s/LTD/Local Test Desk/g"
-:$s/pdf/
-|2,0,1499288474,,"$s/pdf/"
-:$s#\.pdf
-|2,0,1499288459,,"$s#\\.pdf"
-:$s#\.pdf/\/g
-|2,0,1499288453,,"$s#\\.pdf/\\/g"
-:$s#\.pdf//g
-|2,0,1499288444,,"$s#\\.pdf//g"
-:$s/\_/ /g
-|2,0,1499288377,,"$s/\\_/ /g"
-:$s/_/ /g
-|2,0,1499288350,,"$s/_/ /g"
-:$s/\.pdf//g
-|2,0,1499288296,,"$s/\\.pdf//g"
-:$s/.pdf//g
-|2,0,1499288262,,"$s/.pdf//g"
-:$s/pdf//g
-|2,0,1499288224,,"$s/pdf//g"
-:s/.pdf//g
-|2,0,1499288172,,"s/.pdf//g"
-:e ~/Desktop/BatchCropandStraighten.jsx
-|2,0,1492057329,,"e ~/Desktop/BatchCropandStraighten.jsx"
-:g800
-|2,0,1491881801,,"g800"
+|2,0,1548660097,,"W"
+:e static/css/skeleton.css
+|2,0,1548659775,,"e static/css/skeleton.css"
+:e app.py
+|2,0,1548659593,,"e app.py"
+:%s/web/dark/g
+|2,0,1548659578,,"%s/web/dark/g"
+:e panel_gen.py
+|2,0,1548654330,,"e panel_gen.py"
+:e swagger.yml
+|2,0,1548654289,,"e swagger.yml"
+:e
+|2,0,1548653835,,"e"
+:e ../http_server.py
+|2,0,1548616179,,"e ../http_server.py"
+:e home.html
+|2,0,1548616103,,"e home.html"
+:vsplit
+|2,0,1548615861,,"vsplit"
+:e ~/panel_gen/app.py
+|2,0,1548560585,,"e ~/panel_gen/app.py"
+:e ../static/css/skeleton.css
+|2,0,1548558842,,"e ../static/css/skeleton.css"
+:Wq
+|2,0,1548557933,,"Wq"
+:w! panel_gen.py
+|2,0,1548555462,,"w! panel_gen.py"
+:w panel_gen.py
+|2,0,1548555453,,"w panel_gen.py"
+:q!
+|2,0,1548555441,,"q!"
+:w temp.py
+|2,0,1548555431,,"w temp.py"
+:e switches.py
+|2,0,1548440305,,"e switches.py"
+:"w
+|2,0,1548439543,,"\"w"
+:vsp
+|2,0,1548438859,,"vsp"
+:sp ~/.vimrc
+|2,0,1548436549,,"sp ~/.vimrc"
+:e static/
+|2,0,1548395202,,"e static/"
+:e templates/layout.html
+|2,0,1548394684,,"e templates/layout.html"
+:set tabstop=4
+|2,0,1548379128,,"set tabstop=4"
+:set paste
+|2,0,1548379100,,"set paste"
+:w\
+|2,0,1548368564,,"w\\"
+:%s/\s\+$//e
+|2,0,1548368558,,"%s/\\s\\+$//e"
+:%s/sw_instance/instance/g
+|2,0,1548313473,,"%s/sw_instance/instance/g"
+:%s/traffic_volume/traffic_load/g
+|2,0,1548312552,,"%s/traffic_volume/traffic_load/g"
+:q:q
+|2,0,1548311849,,"q:q"
+:yield
+|2,0,1548053600,,"yield"
+:set nopaste
+|2,0,1547957978,,"set nopaste"
+:history
+|2,0,1547878829,,"history"
+:%s/dcurve/traffic_load/g
+|2,0,1547595348,,"%s/dcurve/traffic_load/g"
+:e line.py
+|2,0,1547581872,,"e line.py"
+:e switch.py
+|2,0,1547581801,,"e switch.py"
+:%s/calling_no/called_no/g
+|2,0,1547498881,,"%s/calling_no/called_no/g"
+:e api/
+|2,0,1547499710,,"e api/"
+:ui_thread
+|2,0,1547014811,,"ui_thread"
+::%s/\s\+$//e
+|2,0,1546887900,,":%s/\\s\\+$//e"
+:d
+|2,0,1546841527,,"d"
 
 # Search String History (newest to oldest):
-?/export
-|2,1,1545707756,47,"export"
-??\a
-|2,1,1545542613,63,"\\a"
+?/print
+|2,1,1549241754,47,"print"
+?/http
+|2,1,1549241654,47,"http"
+?/start
+|2,1,1549241342,47,"start"
+?/CallSchema
+|2,1,1549240693,47,"CallSchema"
+?/DialBegin
+|2,1,1549240583,47,"DialBegin"
+?/xb5
+|2,1,1549232423,47,"xb5"
+?/106
+|2,1,1549231530,47,"106"
+?/104
+|2,1,1549229021,47,"104"
+?/json
+|2,1,1549212333,47,"json"
+?/HEAD
+|2,1,1549212302,47,"HEAD"
+?/post
+|2,1,1548746391,47,"post"
+?/class xb5
+|2,1,1548740047,47,"class xb5"
+?/is_dialing
+|2,1,1548732848,47,"is_dialing"
+?/api_stop
+|2,1,1548732810,47,"api_stop"
+?/orange
+|2,1,1548659777,47,"orange"
+? web
+|2,1,1548659578,,"web"
+?/api_start
+|2,1,1548654340,47,"api_start"
+?/SwitchSchema
+|2,1,1548654064,47,"SwitchSchema"
+?/AppSchema
+|2,1,1548653712,47,"AppSchema"
+?/Schema
+|2,1,1548653451,47,"Schema"
+?/def hangup
+|2,1,1548652895,47,"def hangup"
+?/one shot
+|2,1,1548652361,47,"one shot"
+?/button
+|2,1,1548560386,47,"button"
+?/color
+|2,1,1548559340,47,"color"
+?/timer
+|2,1,1548556484,47,"timer"
+?/main
+|2,1,1548555798,47,"main"
+?/if name
+|2,1,1548555795,47,"if name"
+?/traffic_load
+|2,1,1548555125,47,"traffic_load"
+?/def make_lines
+|2,1,1548555068,47,"def make_lines"
+?/make_lines
+|2,1,1548555061,47,"make_lines"
+?/newtimer
+|2,1,1548552298,47,"newtimer"
+?/api_tl
+|2,1,1548551900,47,"api_tl"
+?/class xb1
+|2,1,1548480058,47,"class xb1"
+?/class panel
+|2,1,1548478523,47,"class panel"
+?/get_info
+|2,1,1548439381,47,"get_info"
+?/AppSchjema
+|2,1,1548439207,47,"AppSchjema"
+?/paused
+|2,1,1548439074,47,"paused"
+?/200
+|2,1,1548438933,47,"200"
+?/pause
+|2,1,1548436474,47,"pause"
+?/class Line
+|2,1,1548396671,47,"class Line"
+?/form
+|2,1,1548395216,47,"form"
 ? @$
-|2,1,1545542613,,"@$"
-?/ui
-|2,1,1545379185,47,"ui"
-?/GCC
-|2,1,1545366045,47,"GCC"
-?/kercheep
-|2,1,1545335669,47,"kercheep"
-?/down
-|2,1,1544404266,47,"down"
-?/Down
-|2,1,1544404056,47,"Down"
-? Download
-|2,1,1544404045,,"Download"
-? Start
-|2,1,1544404036,,"Start"
-?/Download
-|2,1,1544404005,47,"Download"
-?/Forwarding
-|2,1,1510292151,47,"Forwarding"
-? .pdf,
-|2,1,1499363701,,".pdf,"
-? \.pdf\,
-|2,1,1499363674,,"\\.pdf\\,"
-? ^.\{0,10\}
-|2,1,1499363622,,"^.\\{0,10\\}"
-? ^.\{0,5\}
-|2,1,1499363602,,"^.\\{0,5\\}"
-?/jpg
-|2,1,1499294132,47,"jpg"
-? LTD
-|2,1,1499290168,,"LTD"
-? pdf
-|2,1,1499288474,,"pdf"
-? \.pdf
-|2,1,1499288459,,"\\.pdf"
-? \.pdf/\/g
-|2,1,1499288453,,"\\.pdf/\\/g"
-? \.pdf//g
-|2,1,1499288444,,"\\.pdf//g"
-? \_
-|2,1,1499288377,,"\\_"
-? _
-|2,1,1499288350,,"_"
-? .pdf
-|2,1,1499288262,,".pdf"
-?/kerchee
-|2,1,1497053976,47,"kerchee"
-?/Cover
-|2,1,1492453247,47,"Cover"
-?/thumb
-|2,1,1492453245,47,"thumb"
-?/cover
-|2,1,1492453242,47,"cover"
-?/* 
-|2,1,1492060161,47,"* "
-?// Photoshop for Geeks Version 2.0
-|2,1,1492060161,47,"/ Photoshop for Geeks Version 2.0"
-?// Written by Jeffrey Tranberry
-|2,1,1492060161,47,"/ Written by Jeffrey Tranberry"
-?// Copyright 2006-2008
-|2,1,1492060161,47,"/ Copyright 2006-2008"
-?/ cropAndStraightenBatch.jsx
-|2,1,1492060161,47," cropAndStraightenBatch.jsx"
-? 00
-|2,1,1491881801,,"00"
-? \<DS_Store\>
-|2,1,0,,"\\<DS_Store\\>"
+|2,1,1548395205,,"@$"
+?/if args.l
+|2,1,1548381539,47,"if args.l"
+?/t.start
+|2,1,1548379459,47,"t.start"
+?/__panel_gen__
+|2,1,1548379453,47,"__panel_gen__"
+?/t.daemon
+|2,1,1548372703,47,"t.daemon"
+? \<t\>
+|2,1,1548372456,,"\\<t\\>"
+?/__main__
+|2,1,1548372359,47,"__main__"
+?/api stop
+|2,1,1548371768,47,"api stop"
+?/started
+|2,1,1548370668,47,"started"
 
 # Expression History (newest to oldest):
 
@@ -203,280 +231,1232 @@ $
 
 # Registers:
 "0	LINE	0
-	
-|3,0,0,1,1,0,1545542618,""
+	        if source == "web":
+	            return 'See Other', 303, {'Location': '/'}
+	        elif source == "dark":
+	            return 'See Other', 303, {'Location': '/dark'}
+	        else:
+	            return result 
+|3,0,0,1,6,0,1548660317,"        if source == \"web\":","            return 'See Other', 303, {'Location': '/'}","        elif source == \"dark\":","            return 'See Other', 303, {'Location': '/dark'}","        else:","            return result "
 ""1	LINE	0
-	# My special fancy aliases
-	alias panel_gen='sudo python /home/sarah/panel_gen/panel_gen.py'
-	alias apt='sudo apt-get'
-	alias cs='sudo apt-cache search'
-	alias asterisk='sudo asterisk'
-	alias secast='telnet 127.0.0.1 3000'
-	
-|3,1,1,1,7,0,1545707905,"# My special fancy aliases","alias panel_gen='sudo python /home/sarah/panel_gen/panel_gen.py'","alias apt='sudo apt-get'","alias cs='sudo apt-cache search'","alias asterisk='sudo asterisk'","alias secast='telnet 127.0.0.1 3000'",""
+	        print "work thread start"
+|3,1,1,1,1,0,1549241755,"        print \"work thread start\""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1545707888,""
+	        print "UI thread start"
+|3,0,2,1,1,0,1549241752,"        print \"UI thread start\""
 "3	LINE	0
-	#alias l='ls -CF'
-|3,0,3,1,1,0,1545707888,"#alias l='ls -CF'"
-"4	LINE	0
-	#alias la='ls -A'
-|3,0,4,1,1,0,1545707887,"#alias la='ls -A'"
+	    .
+|3,0,3,1,1,0,1549241732,"    ."
+"4	CHAR	0
+	 Note: This thread does not start if
+	    # panel_gen is run with the --http option. No UI necessary
+	    # in headless mode.
+	
+|3,0,4,0,4,0,1549241711," Note: This thread does not start if","    # panel_gen is run with the --http option. No UI necessary","    # in headless mode.",""
 "5	LINE	0
-	#alias ll='ls -l'
-|3,0,5,1,1,0,1545707887,"#alias ll='ls -l'"
-"6	LINE	0
-	# some more ls aliases
-|3,0,6,1,1,0,1545707886,"# some more ls aliases"
+	        if not args.http == True:
+|3,0,5,1,1,0,1549241676,"        if not args.http == True:"
+"6	CHAR	0
+	
+	    def ui_main(self, stdscr):
+	
+	        global screen
+	        # Instantiate a screen, so we can play with it later.
+	        screen = Screen(stdscr)
+	
+	        while not self.shutdown_flag.is_set():
+	
+	            # Handle user input.
+	            screen.getkey(stdscr)
+	
+	            # Check if screen has been resized. Handle it.
+	            y, x = stdscr.getmaxyx()
+	            resized = curses.is_term_resized(y, x)
+	            if resized is True:
+	                y, x = stdscr.getmaxyx()
+	                screen.update_size(stdscr, y, x)
+	
+	            # Draw the window
+	            screen.draw(stdscr, lines, y, x)
+	
+	            stdscr.refresh()
+	
+	    def draw_paused(self):
+	        try:
+	            screen.pausescreen()
+	        except NameError:
+	            pass
+	
+	    def draw_resumed(self):
+	        try:
+	            screen.resumescreen()
+	        except NameError:
+	            pass
+	
+	class work_thread(threading.Thread):
+	    # Does all the work! Can be paused and resumed. Handles all of
+	    # the exciting things, but most important is calling tick()
+	    # once per second. This evaluates the timers and makes call processing
+	    # decisions.
+	
+	    def __init__(self):
+	
+	        print "work thread start"
+	        threading.Thread.__init__(self)
+	        self.shutdown_flag = threading.Event()
+	        self.paused = False
+	        self.paused_flag = threading.Condition(threading.Lock())
+	
+|3,0,6,0,50,0,1549241646,"","    def ui_main(self, stdscr):","","        global screen","        # Instantiate a screen, so we can play with it later.","        screen = Screen(stdscr)","","        while not self.shutdown_flag.is_set():","","            # Handle user input.","            screen.getkey(stdscr)","","            # Check if screen has been resized. Handle it.","            y, x = stdscr.getmaxyx()",>52
+|<"            resized = curses.is_term_resized(y, x)","            if resized is True:","                y, x = stdscr.getmaxyx()","                screen.update_size(stdscr, y, x)","","            # Draw the window","            screen.draw(stdscr, lines, y, x)","","            stdscr.refresh()","","    def draw_paused(self):","        try:","            screen.pausescreen()","        except NameError:","            pass","","    def draw_resumed(self):","        try:",>35
+|<"            screen.resumescreen()","        except NameError:","            pass","","class work_thread(threading.Thread):","    # Does all the work! Can be paused and resumed. Handles all of","    # the exciting things, but most important is calling tick()","    # once per second. This evaluates the timers and makes call processing","    # decisions.","","    def __init__(self):","","        print \"work thread start\"","        threading.Thread.__init__(self)",>48
+|<"        self.shutdown_flag = threading.Event()","        self.paused = False","        self.paused_flag = threading.Condition(threading.Lock())",""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1545707853,""
+|3,0,7,1,1,0,1549241431,""
 "8	LINE	0
-	    #alias vdir='vdir --color=auto'
-|3,0,8,1,1,0,1545707847,"    #alias vdir='vdir --color=auto'"
+	"""
+|3,0,8,1,1,0,1549240966,"\"\"\""
 "9	LINE	0
-	    #alias dir='dir --color=auto'
-|3,0,9,1,1,0,1545707845,"    #alias dir='dir --color=auto'"
+	"""
+|3,0,9,1,1,0,1549240965,"\"\"\""
+"l	CHAR	0
+	w
+|3,0,21,0,1,0,1545953588,"w"
 "-	CHAR	0
-	n
-|3,0,36,0,1,0,1545707669,"n"
+	                                     # For drawing the table in the UI
+|3,0,36,0,1,0,1549240255,"                                     # For drawing the table in the UI"
 
 # File marks:
-'0  97  0  ~/.bashrc
-|4,48,97,0,1545707913,"~/.bashrc"
-'1  50  0  ~/.screenrc
-|4,49,50,0,1545707733,"~/.screenrc"
-'2  6  3  ~/.gitconfig
-|4,50,6,3,1545707611,"~/.gitconfig"
-'3  85  35  ~/.bashrc
-|4,51,85,35,1545642495,"~/.bashrc"
-'4  92  35  ~/.bashrc
-|4,52,92,35,1545642495,"~/.bashrc"
-'5  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,53,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
-'6  48  0  ~/panel_gen/http-server.py
-|4,54,48,0,1545596371,"~/panel_gen/http-server.py"
-'7  265  73  ~/panel_gen/panel_gen.py
-|4,55,265,73,1545588244,"~/panel_gen/panel_gen.py"
-'8  21  0  /etc/network/if-up.d/upstart
-|4,56,21,0,1545542626,"/etc/network/if-up.d/upstart"
-'9  592  0  ~/panel_gen/panel_gen.py
-|4,57,592,0,1545379604,"~/panel_gen/panel_gen.py"
+'0  21  0  ~/panel_gen/panel_gen.py
+|4,48,21,0,1549241850,"~/panel_gen/panel_gen.py"
+'1  1427  8  ~/panel_gen/panel_gen.py
+|4,49,1427,8,1549241764,"~/panel_gen/panel_gen.py"
+'2  1427  8  ~/panel_gen/panel_gen.py
+|4,50,1427,8,1549241764,"~/panel_gen/panel_gen.py"
+'3  1253  0  ~/panel_gen/panel_gen.py
+|4,51,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+'4  1253  0  ~/panel_gen/panel_gen.py
+|4,52,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+'5  1253  0  ~/panel_gen/panel_gen.py
+|4,53,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+'6  1253  0  ~/panel_gen/panel_gen.py
+|4,54,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+'7  1  0  ~/panel_gen/panel_gen.py
+|4,55,1,0,1549241572,"~/panel_gen/panel_gen.py"
+'8  1  0  ~/panel_gen/panel_gen.py
+|4,56,1,0,1549241572,"~/panel_gen/panel_gen.py"
+'9  1  0  ~/panel_gen/panel_gen.py
+|4,57,1,0,1549241572,"~/panel_gen/panel_gen.py"
 
 # Jumplist (newest first):
--'  97  0  ~/.bashrc
-|4,39,97,0,1545707913,"~/.bashrc"
--'  87  0  ~/.bashrc
-|4,39,87,0,1545707762,"~/.bashrc"
--'  29  0  ~/.bashrc
-|4,39,29,0,1545707756,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545707753,"~/.bashrc"
--'  50  0  ~/.screenrc
-|4,39,50,0,1545707733,"~/.screenrc"
--'  50  0  ~/.screenrc
-|4,39,50,0,1545707733,"~/.screenrc"
--'  1  0  ~/.screenrc
-|4,39,1,0,1545707661,"~/.screenrc"
--'  1  0  ~/.screenrc
-|4,39,1,0,1545707661,"~/.screenrc"
--'  6  3  ~/.gitconfig
-|4,39,6,3,1545707611,"~/.gitconfig"
--'  6  3  ~/.gitconfig
-|4,39,6,3,1545707611,"~/.gitconfig"
--'  6  3  ~/.gitconfig
-|4,39,6,3,1545707611,"~/.gitconfig"
--'  6  3  ~/.gitconfig
-|4,39,6,3,1545707611,"~/.gitconfig"
--'  9  66  ~/.gitconfig
-|4,39,9,66,1545707499,"~/.gitconfig"
--'  9  66  ~/.gitconfig
-|4,39,9,66,1545707499,"~/.gitconfig"
--'  9  66  ~/.gitconfig
-|4,39,9,66,1545707499,"~/.gitconfig"
--'  9  66  ~/.gitconfig
-|4,39,9,66,1545707499,"~/.gitconfig"
--'  1  0  ~/.gitco
-|4,39,1,0,1545707340,"~/.gitco"
--'  1  0  ~/.gitco
-|4,39,1,0,1545707340,"~/.gitco"
--'  1  0  ~/.gitco
-|4,39,1,0,1545707340,"~/.gitco"
--'  1  0  ~/.gitco
-|4,39,1,0,1545707340,"~/.gitco"
--'  85  35  ~/.bashrc
-|4,39,85,35,1545642495,"~/.bashrc"
--'  92  35  ~/.bashrc
-|4,39,92,35,1545642495,"~/.bashrc"
--'  92  35  ~/.bashrc
-|4,39,92,35,1545642495,"~/.bashrc"
--'  92  35  ~/.bashrc
-|4,39,92,35,1545642495,"~/.bashrc"
--'  92  35  ~/.bashrc
-|4,39,92,35,1545642495,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545642463,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545642463,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545642463,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1545642463,"~/.bashrc"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  22  17  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,22,17,1545641187,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  1  0  ~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh
-|4,39,1,0,1545641048,"~/phonethings/secast-1.5.12-x86_64-d9/install_files/updatefiles.sh"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  48  0  ~/panel_gen/http-server.py
-|4,39,48,0,1545596371,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
--'  1  0  ~/panel_gen/http-server.py
-|4,39,1,0,1545588396,"~/panel_gen/http-server.py"
+-'  21  0  ~/panel_gen/panel_gen.py
+|4,39,21,0,1549241850,"~/panel_gen/panel_gen.py"
+-'  16  0  ~/panel_gen/panel_gen.py
+|4,39,16,0,1549241837,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1549241834,"~/panel_gen/panel_gen.py"
+-'  1427  8  ~/panel_gen/panel_gen.py
+|4,39,1427,8,1549241764,"~/panel_gen/panel_gen.py"
+-'  1427  8  ~/panel_gen/panel_gen.py
+|4,39,1427,8,1549241764,"~/panel_gen/panel_gen.py"
+-'  1426  8  ~/panel_gen/panel_gen.py
+|4,39,1426,8,1549241762,"~/panel_gen/panel_gen.py"
+-'  1513  8  ~/panel_gen/panel_gen.py
+|4,39,1513,8,1549241762,"~/panel_gen/panel_gen.py"
+-'  1426  8  ~/panel_gen/panel_gen.py
+|4,39,1426,8,1549241762,"~/panel_gen/panel_gen.py"
+-'  1513  8  ~/panel_gen/panel_gen.py
+|4,39,1513,8,1549241762,"~/panel_gen/panel_gen.py"
+-'  1512  8  ~/panel_gen/panel_gen.py
+|4,39,1512,8,1549241761,"~/panel_gen/panel_gen.py"
+-'  1456  8  ~/panel_gen/panel_gen.py
+|4,39,1456,8,1549241761,"~/panel_gen/panel_gen.py"
+-'  1512  8  ~/panel_gen/panel_gen.py
+|4,39,1512,8,1549241761,"~/panel_gen/panel_gen.py"
+-'  1456  8  ~/panel_gen/panel_gen.py
+|4,39,1456,8,1549241761,"~/panel_gen/panel_gen.py"
+-'  1446  8  ~/panel_gen/panel_gen.py
+|4,39,1446,8,1549241760,"~/panel_gen/panel_gen.py"
+-'  1446  8  ~/panel_gen/panel_gen.py
+|4,39,1446,8,1549241760,"~/panel_gen/panel_gen.py"
+-'  1309  8  ~/panel_gen/panel_gen.py
+|4,39,1309,8,1549241757,"~/panel_gen/panel_gen.py"
+-'  1309  8  ~/panel_gen/panel_gen.py
+|4,39,1309,8,1549241757,"~/panel_gen/panel_gen.py"
+-'  1256  8  ~/panel_gen/panel_gen.py
+|4,39,1256,8,1549241754,"~/panel_gen/panel_gen.py"
+-'  1256  8  ~/panel_gen/panel_gen.py
+|4,39,1256,8,1549241754,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1549241750,"~/panel_gen/panel_gen.py"
+-'  1253  0  ~/panel_gen/panel_gen.py
+|4,39,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+-'  1253  0  ~/panel_gen/panel_gen.py
+|4,39,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+-'  1253  0  ~/panel_gen/panel_gen.py
+|4,39,1253,0,1549241736,"~/panel_gen/panel_gen.py"
+-'  1254  3  ~/panel_gen/panel_gen.py
+|4,39,1254,3,1549241730,"~/panel_gen/panel_gen.py"
+-'  1254  3  ~/panel_gen/panel_gen.py
+|4,39,1254,3,1549241730,"~/panel_gen/panel_gen.py"
+-'  1254  3  ~/panel_gen/panel_gen.py
+|4,39,1254,3,1549241730,"~/panel_gen/panel_gen.py"
+-'  703  8  ~/panel_gen/panel_gen.py
+|4,39,703,8,1549241698,"~/panel_gen/panel_gen.py"
+-'  702  38  ~/panel_gen/panel_gen.py
+|4,39,702,38,1549241698,"~/panel_gen/panel_gen.py"
+-'  703  8  ~/panel_gen/panel_gen.py
+|4,39,703,8,1549241698,"~/panel_gen/panel_gen.py"
+-'  702  38  ~/panel_gen/panel_gen.py
+|4,39,702,38,1549241698,"~/panel_gen/panel_gen.py"
+-'  703  8  ~/panel_gen/panel_gen.py
+|4,39,703,8,1549241698,"~/panel_gen/panel_gen.py"
+-'  702  38  ~/panel_gen/panel_gen.py
+|4,39,702,38,1549241698,"~/panel_gen/panel_gen.py"
+-'  1483  52  ~/panel_gen/panel_gen.py
+|4,39,1483,52,1549241695,"~/panel_gen/panel_gen.py"
+-'  1485  52  ~/panel_gen/panel_gen.py
+|4,39,1485,52,1549241695,"~/panel_gen/panel_gen.py"
+-'  1483  52  ~/panel_gen/panel_gen.py
+|4,39,1483,52,1549241695,"~/panel_gen/panel_gen.py"
+-'  1485  52  ~/panel_gen/panel_gen.py
+|4,39,1485,52,1549241695,"~/panel_gen/panel_gen.py"
+-'  1430  58  ~/panel_gen/panel_gen.py
+|4,39,1430,58,1549241693,"~/panel_gen/panel_gen.py"
+-'  1432  58  ~/panel_gen/panel_gen.py
+|4,39,1432,58,1549241693,"~/panel_gen/panel_gen.py"
+-'  1430  58  ~/panel_gen/panel_gen.py
+|4,39,1430,58,1549241693,"~/panel_gen/panel_gen.py"
+-'  1432  58  ~/panel_gen/panel_gen.py
+|4,39,1432,58,1549241693,"~/panel_gen/panel_gen.py"
+-'  1353  0  ~/panel_gen/panel_gen.py
+|4,39,1353,0,1549241689,"~/panel_gen/panel_gen.py"
+-'  1355  0  ~/panel_gen/panel_gen.py
+|4,39,1355,0,1549241689,"~/panel_gen/panel_gen.py"
+-'  1353  0  ~/panel_gen/panel_gen.py
+|4,39,1353,0,1549241689,"~/panel_gen/panel_gen.py"
+-'  1355  0  ~/panel_gen/panel_gen.py
+|4,39,1355,0,1549241689,"~/panel_gen/panel_gen.py"
+-'  1252  58  ~/panel_gen/panel_gen.py
+|4,39,1252,58,1549241683,"~/panel_gen/panel_gen.py"
+-'  1252  58  ~/panel_gen/panel_gen.py
+|4,39,1252,58,1549241683,"~/panel_gen/panel_gen.py"
+-'  1252  58  ~/panel_gen/panel_gen.py
+|4,39,1252,58,1549241683,"~/panel_gen/panel_gen.py"
+-'  1222  8  ~/panel_gen/panel_gen.py
+|4,39,1222,8,1549241682,"~/panel_gen/panel_gen.py"
+-'  1222  8  ~/panel_gen/panel_gen.py
+|4,39,1222,8,1549241682,"~/panel_gen/panel_gen.py"
+-'  1222  8  ~/panel_gen/panel_gen.py
+|4,39,1222,8,1549241682,"~/panel_gen/panel_gen.py"
+-'  1434  23  ~/panel_gen/panel_gen.py
+|4,39,1434,23,1549241662,"~/panel_gen/panel_gen.py"
+-'  1432  23  ~/panel_gen/panel_gen.py
+|4,39,1432,23,1549241662,"~/panel_gen/panel_gen.py"
+-'  1434  23  ~/panel_gen/panel_gen.py
+|4,39,1434,23,1549241662,"~/panel_gen/panel_gen.py"
+-'  1265  0  ~/panel_gen/panel_gen.py
+|4,39,1265,0,1549241654,"~/panel_gen/panel_gen.py"
+-'  1266  0  ~/panel_gen/panel_gen.py
+|4,39,1266,0,1549241654,"~/panel_gen/panel_gen.py"
+-'  1265  0  ~/panel_gen/panel_gen.py
+|4,39,1265,0,1549241654,"~/panel_gen/panel_gen.py"
+-'  1266  0  ~/panel_gen/panel_gen.py
+|4,39,1266,0,1549241654,"~/panel_gen/panel_gen.py"
+-'  1  0  ~/panel_gen/panel_gen.py
+|4,39,1,0,1549241572,"~/panel_gen/panel_gen.py"
+-'  1488  10  ~/panel_gen/panel_gen.py
+|4,39,1488,10,1549241357,"~/panel_gen/panel_gen.py"
+-'  1490  10  ~/panel_gen/panel_gen.py
+|4,39,1490,10,1549241357,"~/panel_gen/panel_gen.py"
+-'  1488  10  ~/panel_gen/panel_gen.py
+|4,39,1488,10,1549241357,"~/panel_gen/panel_gen.py"
+-'  1490  10  ~/panel_gen/panel_gen.py
+|4,39,1490,10,1549241357,"~/panel_gen/panel_gen.py"
+-'  1258  13  ~/panel_gen/panel_gen.py
+|4,39,1258,13,1549241356,"~/panel_gen/panel_gen.py"
+-'  1259  13  ~/panel_gen/panel_gen.py
+|4,39,1259,13,1549241356,"~/panel_gen/panel_gen.py"
+-'  1258  13  ~/panel_gen/panel_gen.py
+|4,39,1258,13,1549241356,"~/panel_gen/panel_gen.py"
+-'  1259  13  ~/panel_gen/panel_gen.py
+|4,39,1259,13,1549241356,"~/panel_gen/panel_gen.py"
+-'  1200  70  ~/panel_gen/panel_gen.py
+|4,39,1200,70,1549241355,"~/panel_gen/panel_gen.py"
+-'  1196  10  ~/panel_gen/panel_gen.py
+|4,39,1196,10,1549241355,"~/panel_gen/panel_gen.py"
+-'  1200  70  ~/panel_gen/panel_gen.py
+|4,39,1200,70,1549241355,"~/panel_gen/panel_gen.py"
+-'  1196  10  ~/panel_gen/panel_gen.py
+|4,39,1196,10,1549241355,"~/panel_gen/panel_gen.py"
+-'  1200  70  ~/panel_gen/panel_gen.py
+|4,39,1200,70,1549241355,"~/panel_gen/panel_gen.py"
+-'  1196  10  ~/panel_gen/panel_gen.py
+|4,39,1196,10,1549241355,"~/panel_gen/panel_gen.py"
+-'  1195  10  ~/panel_gen/panel_gen.py
+|4,39,1195,10,1549241353,"~/panel_gen/panel_gen.py"
+-'  1195  10  ~/panel_gen/panel_gen.py
+|4,39,1195,10,1549241353,"~/panel_gen/panel_gen.py"
+-'  1195  10  ~/panel_gen/panel_gen.py
+|4,39,1195,10,1549241353,"~/panel_gen/panel_gen.py"
+-'  1169  76  ~/panel_gen/panel_gen.py
+|4,39,1169,76,1549241352,"~/panel_gen/panel_gen.py"
+-'  1169  76  ~/panel_gen/panel_gen.py
+|4,39,1169,76,1549241352,"~/panel_gen/panel_gen.py"
+-'  1169  76  ~/panel_gen/panel_gen.py
+|4,39,1169,76,1549241352,"~/panel_gen/panel_gen.py"
+-'  1165  10  ~/panel_gen/panel_gen.py
+|4,39,1165,10,1549241350,"~/panel_gen/panel_gen.py"
+-'  1164  10  ~/panel_gen/panel_gen.py
+|4,39,1164,10,1549241350,"~/panel_gen/panel_gen.py"
+-'  1165  10  ~/panel_gen/panel_gen.py
+|4,39,1165,10,1549241350,"~/panel_gen/panel_gen.py"
+-'  1164  10  ~/panel_gen/panel_gen.py
+|4,39,1164,10,1549241350,"~/panel_gen/panel_gen.py"
+-'  1165  10  ~/panel_gen/panel_gen.py
+|4,39,1165,10,1549241350,"~/panel_gen/panel_gen.py"
+-'  1164  10  ~/panel_gen/panel_gen.py
+|4,39,1164,10,1549241350,"~/panel_gen/panel_gen.py"
+-'  1077  57  ~/panel_gen/panel_gen.py
+|4,39,1077,57,1549241349,"~/panel_gen/panel_gen.py"
+-'  1077  57  ~/panel_gen/panel_gen.py
+|4,39,1077,57,1549241349,"~/panel_gen/panel_gen.py"
+-'  1077  57  ~/panel_gen/panel_gen.py
+|4,39,1077,57,1549241349,"~/panel_gen/panel_gen.py"
+-'  880  15  ~/panel_gen/panel_gen.py
+|4,39,880,15,1549241348,"~/panel_gen/panel_gen.py"
+-'  877  13  ~/panel_gen/panel_gen.py
+|4,39,877,13,1549241348,"~/panel_gen/panel_gen.py"
+-'  866  15  ~/panel_gen/panel_gen.py
+|4,39,866,15,1549241348,"~/panel_gen/panel_gen.py"
+-'  863  13  ~/panel_gen/panel_gen.py
+|4,39,863,13,1549241348,"~/panel_gen/panel_gen.py"
+-'  880  15  ~/panel_gen/panel_gen.py
+|4,39,880,15,1549241348,"~/panel_gen/panel_gen.py"
+-'  877  13  ~/panel_gen/panel_gen.py
+|4,39,877,13,1549241348,"~/panel_gen/panel_gen.py"
+-'  866  15  ~/panel_gen/panel_gen.py
+|4,39,866,15,1549241348,"~/panel_gen/panel_gen.py"
+-'  863  13  ~/panel_gen/panel_gen.py
+|4,39,863,13,1549241348,"~/panel_gen/panel_gen.py"
+-'  880  15  ~/panel_gen/panel_gen.py
+|4,39,880,15,1549241348,"~/panel_gen/panel_gen.py"
+-'  877  13  ~/panel_gen/panel_gen.py
+|4,39,877,13,1549241348,"~/panel_gen/panel_gen.py"
+-'  866  15  ~/panel_gen/panel_gen.py
+|4,39,866,15,1549241348,"~/panel_gen/panel_gen.py"
+-'  863  13  ~/panel_gen/panel_gen.py
+|4,39,863,13,1549241348,"~/panel_gen/panel_gen.py"
+-'  785  47  ~/panel_gen/panel_gen.py
+|4,39,785,47,1549241347,"~/panel_gen/panel_gen.py"
 
 # History of marks within files (newest to oldest):
 
+> ~/panel_gen/panel_gen.py
+	*	1549241848	0
+	"	21	0
+	^	1253	0
+	.	1309	0
+	+	201	59
+	+	202	31
+	+	202	33
+	+	203	46
+	+	201	38
+	+	203	28
+	+	204	41
+	+	203	26
+	+	204	0
+	+	203	0
+	+	201	0
+	+	200	0
+	+	706	34
+	+	706	35
+	+	706	0
+	+	748	38
+	+	706	6
+	+	748	12
+	+	748	0
+	+	748	37
+	+	743	0
+	+	748	12
+	+	706	6
+	+	706	0
+	+	701	0
+	+	705	0
+	+	703	0
+	+	748	37
+	+	702	6
+	+	748	12
+	+	821	31
+	+	830	32
+	+	831	38
+	+	447	44
+	+	1265	1
+	+	375	0
+	+	379	0
+	+	277	0
+	+	288	0
+	+	375	30
+	+	460	72
+	+	463	63
+	+	460	37
+	+	461	69
+	+	460	32
+	+	29	3
+	+	45	2
+	+	33	37
+	+	32	73
+	+	35	43
+	+	42	0
+	+	41	0
+	+	42	83
+	+	44	75
+	+	48	30
+	+	49	22
+	+	51	10
+	+	52	29
+	+	53	12
+	+	54	58
+	+	56	42
+	+	57	25
+	+	58	22
+	+	60	26
+	+	61	30
+	+	68	0
+	+	67	9
+	+	224	12
+	+	258	19
+	+	259	19
+	+	257	5
+	+	462	74
+	+	464	0
+	+	41	42
+	+	748	0
+	+	746	0
+	+	773	0
+	+	749	0
+	+	748	17
+	+	1073	0
+	+	1265	0
+	+	1482	0
+	+	615	0
+	+	614	0
+	+	45	0
+	+	46	3
+	+	46	0
+	+	29	0
+	+	31	0
+	+	749	0
+	+	1265	32
+	+	1256	30
+	+	1265	0
+	+	1222	0
+	+	1254	0
+	+	1252	24
+	+	1254	0
+	+	1253	0
+	+	1256	0
+	+	1309	0
+	m	1113	12
+
+> ~/panel_gen/.git/COMMIT_EDITMSG
+	*	1549212379	0
+	"	1	0
+	^	2	37
+	.	2	36
+	+	1	32
+	+	5	24
+	+	1	47
+	+	4	33
+	+	1	21
+	+	1	50
+	+	1	42
+	+	3	46
+	+	2	36
+	e	1	0
+	i	1	0
+
+> ~/panel_gen/lines.py
+	*	1548828428	0
+	"	1	0
+	^	92	39
+	.	65	14
+	+	88	7
+	+	89	34
+	+	71	45
+	+	92	0
+	+	75	0
+	+	100	8
+	+	92	38
+	+	65	14
+
+> ~/panel_gen/swagger.yml
+	*	1548828356	0
+	"	89	0
+	^	41	19
+	.	424	0
+	+	151	0
+	+	44	0
+	+	74	18
+	+	74	33
+	+	74	17
+	+	74	32
+	+	49	38
+	+	74	36
+	+	74	35
+	+	74	19
+	+	74	43
+	+	74	48
+	+	68	70
+	+	74	24
+	+	74	26
+	+	74	6
+	+	74	21
+	+	74	0
+	+	60	23
+	+	53	14
+	+	58	14
+	+	60	10
+	+	102	0
+	+	103	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	108	0
+	+	108	81
+	+	109	0
+	+	110	0
+	+	111	0
+	+	112	0
+	+	82	6
+	+	83	6
+	+	84	6
+	+	85	6
+	+	86	6
+	+	81	0
+	+	101	0
+	+	100	0
+	+	111	0
+	+	110	0
+	+	109	0
+	+	106	0
+	+	105	0
+	+	104	0
+	+	103	0
+	+	102	0
+	+	101	0
+	+	106	80
+	+	107	6
+	+	101	10
+	+	101	26
+	+	101	0
+	+	70	70
+	+	99	0
+	+	73	0
+	+	72	54
+	+	97	0
+	+	64	21
+	+	87	0
+	+	98	37
+	+	149	0
+	+	148	42
+	+	1	0
+	+	103	24
+	+	115	23
+	+	14	0
+	+	59	79
+	+	54	68
+	+	148	54
+	+	161	42
+	+	224	47
+	+	238	0
+	+	242	47
+	+	240	52
+	+	281	51
+	+	323	0
+	+	356	0
+	+	358	0
+	+	394	48
+	+	54	52
+	+	25	0
+	+	29	19
+	+	31	26
+	+	32	30
+	+	33	24
+	+	34	30
+	+	35	25
+	+	36	30
+	+	37	24
+	+	43	0
+	+	39	28
+	+	1	0
+	+	42	30
+	+	41	16
+	+	39	0
+	+	41	18
+	+	424	0
+	n	1	59
+
+> ~/panel_gen/api/panel.py
+	*	1548660411	0
+	"	1	0
+	^	14	33
+	.	14	32
+	+	1	88
+	+	1	29
+	+	1	0
+	+	28	0
+	+	1	0
+	+	6	28
+	+	7	6
+	+	8	5
+	+	9	0
+	+	8	9
+	+	9	15
+	+	10	12
+	+	16	15
+	+	16	12
+	+	16	15
+	+	16	12
+	+	9	22
+	+	10	21
+	+	16	23
+	+	16	19
+	+	16	22
+	+	16	19
+	+	28	47
+	+	16	0
+	+	11	0
+	+	10	25
+	+	15	0
+	+	7	0
+	+	13	29
+	+	14	31
+	+	10	24
+	+	7	5
+	+	8	9
+	+	11	27
+	+	12	27
+	+	13	30
+	+	14	32
+
+> ~/panel_gen/templates/dark.html
+	*	1548660389	0
+	"	1	0
+	^	14	67
+	.	4	0
+	+	5	30
+	+	8	34
+	+	12	30
+	+	15	34
+	+	11	72
+	+	14	65
+	+	4	0
+
+> ~/panel_gen/templates/home.html
+	*	1548660377	0
+	"	19	0
+	^	11	42
+	.	11	41
+	+	4	63
+	+	5	64
+	+	4	5
+	+	8	0
+	+	7	0
+	+	11	60
+	+	15	0
+	+	14	0
+	+	19	46
+	+	4	45
+	+	7	45
+	+	11	45
+	+	14	48
+	+	19	42
+	+	6	14
+	+	8	8
+	+	9	14
+	+	13	0
+	+	16	0
+	+	21	0
+	+	4	73
+	+	7	65
+	+	11	41
+	+	14	63
+	+	19	39
+	+	11	41
+
+> ~/panel_gen/http_server.py
+	*	1548660364	0
+	"	1	0
+	^	41	9
+	.	41	8
+	+	19	0
+	+	20	0
+	+	52	0
+	+	54	0
+	+	53	3
+	+	19	0
+	+	20	0
+	+	18	0
+	+	22	3
+	+	22	0
+	+	51	0
+	+	51	28
+	+	51	0
+	+	51	49
+	+	51	31
+	+	51	0
+	+	22	0
+	+	18	11
+	+	51	0
+	+	51	1
+	+	51	91
+	+	51	0
+	+	18	13
+	+	51	0
+	+	51	7
+	+	51	0
+	+	51	7
+	+	18	13
+	+	51	42
+	+	51	50
+	+	18	0
+	+	18	14
+	+	51	0
+	+	51	94
+	+	51	26
+	+	51	0
+	+	51	87
+	+	51	39
+	+	51	94
+	+	51	24
+	+	51	0
+	+	51	93
+	+	51	0
+	+	51	45
+	+	51	1
+	+	51	0
+	+	15	0
+	+	25	0
+	+	44	2
+	+	44	9
+	+	43	30
+	+	44	3
+	+	44	0
+	+	45	2
+	+	45	0
+	+	43	0
+	+	43	34
+	+	43	0
+	+	44	3
+	+	44	0
+	+	45	0
+	+	44	0
+	+	43	0
+	+	44	0
+	+	43	0
+	+	36	0
+	+	44	33
+	+	46	0
+	+	50	0
+	+	48	35
+	+	18	0
+	+	17	15
+	+	40	0
+	+	39	0
+	+	40	16
+	+	42	31
+	+	41	7
+	+	20	0
+	+	19	0
+	+	41	8
+
+> ~/panel_gen/app.py
+	*	1548660353	0
+	"	51	8
+	^	25	28
+	.	46	0
+	+	92	8
+	+	39	0
+	+	91	71
+	+	82	19
+	+	84	46
+	+	85	50
+	+	60	79
+	+	42	31
+	+	21	36
+	+	15	20
+	+	21	0
+	+	39	0
+	+	38	0
+	+	21	0
+	+	39	19
+	+	42	12
+	+	60	60
+	+	60	59
+	+	60	0
+	+	42	26
+	+	21	31
+	+	61	0
+	+	61	26
+	+	61	4
+	+	61	8
+	+	61	0
+	+	61	25
+	+	61	37
+	+	61	12
+	+	61	9
+	+	61	43
+	+	61	4
+	+	61	44
+	+	61	30
+	+	17	32
+	+	18	20
+	+	21	4
+	+	29	4
+	+	21	55
+	+	29	23
+	+	31	0
+	+	33	0
+	+	61	0
+	+	18	12
+	+	21	35
+	+	37	0
+	+	36	62
+	+	62	12
+	+	70	0
+	+	70	3
+	+	70	22
+	+	70	0
+	+	63	0
+	+	74	0
+	+	79	56
+	+	73	12
+	+	33	48
+	+	60	0
+	+	61	7
+	+	61	0
+	+	60	20
+	+	33	20
+	+	33	4
+	+	33	6
+	+	18	37
+	+	19	0
+	+	33	8
+	+	33	0
+	+	32	0
+	+	33	22
+	+	33	0
+	+	33	53
+	+	33	0
+	+	33	11
+	+	33	0
+	+	45	0
+	+	41	0
+	+	44	0
+	+	42	4
+	+	55	12
+	+	56	13
+	+	56	0
+	+	61	4
+	+	72	4
+	+	58	61
+	+	33	55
+	+	52	55
+	+	54	52
+	+	52	52
+	+	33	52
+	+	33	0
+	+	23	0
+	+	22	0
+	+	29	4
+	+	24	0
+	+	25	9
+	+	26	55
+	+	23	0
+	+	25	27
+	+	46	0
+
+> ~/panel_gen/static/css/skeleton.css
+	*	1548660099	0
+	"	240	23
+	^	240	26
+	.	240	25
+	+	225	17
+	+	227	30
+	+	228	29
+	+	229	30
+	+	231	26
+	+	383	0
+	+	382	17
+	+	226	16
+	+	225	17
+	+	234	20
+	+	235	19
+	+	236	33
+	+	237	32
+	+	238	33
+	+	240	22
+	+	241	22
+	+	250	0
+	+	242	21
+	+	243	21
+	+	244	35
+	+	245	34
+	+	246	35
+	+	248	26
+	+	240	26
+	+	130	2
+	+	128	17
+	+	129	20
+	+	128	15
+	+	247	12
+	+	240	20
+	+	186	28
+	+	240	25
+
+> ~/panel_gen/templates/5xb.html
+	*	1548629181	0
+	"	8	10
+	^	8	11
+	.	8	10
+	+	6	71
+	+	7	0
+	+	6	0
+	+	8	0
+	+	11	5
+	+	9	0
+	+	8	10
+
+> ~/panel_gen/reset
+	*	1548566333	0
+	"	1	0
+
+> ~/panel_gen/temp.py
+	*	1548555462	0
+	"	1	0
+
+> ~/panel_gen/switches.py
+	*	1548440318	0
+	"	76	1
+
+> ~/.vimrc
+	*	1548436558	0
+	"	39	0
+	^	71	0
+	.	70	56
+	+	19	0
+	+	18	27
+	+	53	19
+	+	58	0
+	+	61	25
+	+	67	0
+	+	70	56
+
+> ~/panel_gen/templates/layout.html
+	*	1548394698	0
+	"	38	0
+
+> ~/panel_gen/http
+	*	1548313533	0
+	"	1	0
+
+> /etc/asterisk/iax.conf
+	*	1548183948	0
+	"	74	39
+	.	74	39
+	+	74	39
+
+> ~/panel_gen/compare/panel_gen.old
+	*	1548060860	0
+	"	1399	4
+
+> ~/panel_gen/create_db.py
+	*	1547973136	0
+	"	3	0
+	^	3	0
+	.	2	25
+	+	5	0
+	+	40	62
+	+	27	0
+	+	24	0
+	+	26	24
+	+	27	0
+	+	1	14
+	+	2	25
+
+> ~/panel_gen/app.pypanel_gen
+	*	1547700662	0
+	"	1	0
+
+> ~/panel_gen/swagger.py
+	*	1547679122	0
+	"	1	0
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1547674420	0
+	"	1	0
+
+> ~/panel_gen/line.py
+	*	1547581909	0
+	"	13	33
+	^	66	13
+	.	4	0
+	+	32	58
+	+	41	39
+	+	74	13
+	+	81	9
+	+	82	20
+	+	84	54
+	+	90	53
+	+	70	26
+	+	17	0
+	+	60	0
+	+	58	21
+	+	60	18
+	+	78	18
+	+	78	21
+	+	54	17
+	+	41	0
+	+	4	14
+	+	45	0
+	+	41	27
+	+	41	25
+	+	41	35
+	+	41	21
+	+	43	36
+	+	42	36
+	+	44	35
+	+	45	0
+	+	41	28
+	+	41	0
+	+	4	0
+	+	41	42
+	+	41	13
+	+	41	36
+	+	41	0
+	+	58	51
+	+	58	53
+	+	22	0
+	+	22	42
+	+	2	11
+	+	22	0
+	+	22	25
+	+	41	37
+	+	41	46
+	+	4	26
+	+	22	30
+	+	15	17
+	+	52	15
+	+	69	15
+	+	58	47
+	+	60	25
+	+	65	59
+	+	78	11
+	+	78	22
+	+	79	58
+	+	85	28
+	+	86	0
+	+	22	36
+	+	29	0
+	+	22	0
+	+	25	3
+	+	27	0
+	+	25	3
+	+	27	51
+	+	78	0
+	+	79	0
+	+	80	0
+	+	83	0
+	+	84	0
+	+	85	0
+	+	86	0
+	+	78	0
+	+	76	39
+	+	77	20
+	+	78	0
+	+	79	0
+	+	80	0
+	+	79	18
+	+	83	0
+	+	84	0
+	+	85	0
+	+	86	0
+	+	31	16
+	+	41	0
+	+	37	7
+	+	40	20
+	+	42	57
+	+	39	13
+	+	40	16
+	+	42	84
+	+	49	39
+	+	42	27
+	+	43	0
+	+	42	41
+	+	52	18
+	+	58	44
+	+	59	0
+	+	60	23
+	+	61	21
+	+	66	13
+	+	4	0
+
+> ~/panel_gen/switch.py
+	*	1547581869	0
+	"	76	5
+	^	76	6
+	.	78	0
+	+	27	0
+	+	33	0
+	+	27	17
+	+	27	18
+	+	27	34
+	+	27	0
+	+	26	0
+	+	27	35
+	+	2	5
+	+	33	0
+	+	34	14
+	+	41	0
+	+	45	0
+	+	42	36
+	+	46	0
+	+	48	0
+	+	42	0
+	+	45	25
+	+	46	0
+	+	45	77
+	+	41	0
+	+	42	42
+	+	44	21
+	+	45	7
+	+	47	100
+	+	48	0
+	+	46	8
+	+	27	39
+	+	30	70
+	+	33	0
+	+	32	20
+	+	12	4
+	+	18	0
+	+	17	20
+	+	5	0
+	+	4	0
+	+	38	27
+	+	41	0
+	+	28	0
+	+	13	4
+	+	12	0
+	+	43	0
+	+	70	0
+	+	70	21
+	+	69	22
+	+	69	0
+	+	69	23
+	+	69	10
+	+	69	0
+	+	70	0
+	+	69	4
+	+	69	10
+	+	70	0
+	+	75	0
+	+	69	9
+	+	29	21
+	+	69	0
+	+	69	13
+	+	72	1
+	+	70	0
+	+	71	12
+	+	69	0
+	+	76	0
+	+	69	0
+	+	61	62
+	+	61	0
+	+	62	0
+	+	61	62
+	+	62	10
+	+	67	7
+	+	69	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	69	0
+	+	61	4
+	+	55	25
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	49	15
+	+	55	33
+	+	49	13
+	+	55	46
+	+	59	21
+	+	61	0
+	+	60	0
+	+	71	18
+	+	44	21
+	+	55	0
+	+	57	14
+	+	59	0
+	+	60	0
+	+	58	0
+	+	77	59
+	+	78	0
+
+> ~/ControlP
+	*	1546844313	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/panel_gen/ControlP
+	*	1546827198	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/panel_gen/setup.py
+	*	1546763329	0
+	"	1	0
+	^	14	23
+	.	14	22
+	+	14	21
+	+	15	0
+	+	13	15
+	+	14	22
+
+> ~/panel_gen/requires
+	*	1546752157	0
+	"	1	0
+	^	4	0
+	.	3	28
+	+	26	0
+	+	3	28
+
+> ~/panel_gen/todo
+	*	1546752155	0
+	"	1	0
+	^	3	0
+	.	2	21
+	+	2	21
+
 > ~/.bashrc
-	*	1545707912	0
-	"	97	0
-	.	97	0
+	*	1546377421	0
+	"	103	11
+	^	103	18
+	.	103	14
 	+	80	4
 	+	79	34
-	+	114	28
-	+	113	2
-	+	114	0
+	+	115	28
+	+	114	2
+	+	115	0
 	+	85	26
 	+	85	35
 	+	85	0
@@ -491,6 +1471,131 @@ $
 	+	88	0
 	+	85	0
 	+	97	0
+	+	103	14
+
+> /etc/fail2ban/jail.conf
+	*	1546282402	0
+	"	261	0
+
+> /etc/fail2ban/jail.cond
+	*	1546282382	0
+	"	1	0
+
+> /etc/fail2ban/jail.c
+	*	1546282375	0
+	"	1	0
+
+> /etc/fail2ban/filter.d/sshd.conf
+	*	1546282360	0
+	"	1	0
+
+> ~/panel_gen/panel.py
+	*	1546064791	0
+	"	31	16
+	^	31	17
+	.	31	16
+	+	13	27
+	+	14	27
+	+	15	30
+	+	16	21
+	+	15	29
+	+	29	4
+	+	30	0
+	+	57	9
+	+	31	11
+	+	7	5
+	+	8	10
+	+	10	0
+	+	9	23
+	+	12	17
+	+	17	0
+	+	29	47
+	+	31	16
+
+> /var/log/panel_gen/calls.log
+	*	1546034992	0
+	"	53412	0
+
+> ~/panel_gen/http-server.py
+	*	1546027611	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	90	34
+	+	92	66
+	+	93	0
+	+	85	0
+	+	93	42
+	+	93	75
+	+	94	42
+	+	100	26
+	+	102	32
+	+	103	0
+	+	158	0
+	+	159	15
+	+	161	3
+	+	159	15
+	+	49	0
+	+	129	81
+	+	154	81
+	+	88	80
+	+	70	81
+	+	18	15
+	+	25	0
+	+	26	53
+	+	27	26
+	+	20	0
+	+	21	14
+	+	22	27
+	+	21	0
+	+	159	0
+	+	160	0
+	+	44	0
+	+	21	0
+	+	22	0
+
+> ~/panel_gen/api/switch.py
+	*	1545954445	0
+	"	1	0
+
+> /etc/init.d/asterisk
+	*	1545894801	0
+	"	1	0
+
+> /etc/init.d/asterisk.bak
+	*	1545894768	0
+	"	1	0
+
+> ~/phonethings/asterisk-13.24.0/contrib/init.d/rc.debian.asterisk
+	*	1545893829	0
+	"	24	18
+
+> ~/networking.sh
+	*	1545762686	0
+	"	4	29
+	^	4	30
+	.	4	29
+	+	2	33
+	+	6	15
+	+	14	28
+	+	13	1
+	+	14	0
+	+	15	2
+	+	5	0
+	+	4	0
+	+	5	32
+	+	4	29
+	+	2	0
+	+	4	0
+	+	5	0
+	+	4	29
+
+> ~/.cfg/COMMIT_EDITMSG
+	*	1545708155	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
 
 > ~/.screenrc
 	*	1545707696	0
@@ -549,37 +1654,6 @@ $
 	+	1	2
 	+	22	18
 
-> ~/panel_gen/http-server.py
-	*	1545588492	0
-	"	48	0
-	.	94	0
-	+	81	34
-	+	83	66
-	+	84	0
-	+	76	0
-	+	84	42
-	+	84	75
-	+	85	42
-	+	91	26
-	+	93	32
-	+	94	0
-
-> ~/panel_gen/panel_gen.py
-	*	1545588240	0
-	"	265	73
-	^	265	74
-	.	265	72
-	+	44	46
-	+	539	0
-	+	596	0
-	+	592	0
-	+	262	61
-	+	263	39
-	+	264	83
-	+	264	0
-	+	264	83
-	+	265	72
-
 > /etc/network/if-up.d/upstart
 	*	1545542626	0
 	"	21	0
@@ -599,17 +1673,6 @@ $
 	+	14	78
 	+	16	0
 	+	12	9
-
-> ~/panel_gen/static/css/skeleton.css
-	*	1545339944	0
-	"	230	26
-	^	230	27
-	.	230	26
-	+	224	17
-	+	226	30
-	+	227	29
-	+	228	30
-	+	230	26
 
 > ~/.bash_profile
 	*	1545335764	0
@@ -857,14 +1920,6 @@ $
 > ~/.vim/README.md
 	*	1527486215	0
 	"	81	0
-
-> ~/.vimrc
-	*	1527486203	0
-	"	19	0
-	^	18	27
-	.	18	27
-	+	19	0
-	+	18	27
 
 > ~/Documents/adit.txt
 	*	1527486129	0
@@ -1376,117 +2431,3 @@ $
 	+	2	0
 	+	1	2
 	r	1	0
-
-> ~/.gnupg/gpg-agent.conf
-	*	1479101236	0
-	"	3	18
-	^	3	19
-	.	3	0
-	+	3	0
-
-> /keybase/private/cmx,spacegirl/omg.txt
-	*	1478890241	0
-	"	1	18
-	^	1	19
-	.	1	18
-	+	1	18
-
-> ~/Documents/annex/.gitignore
-	*	1477800097	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> ~/Documents/annex/.git/rebase-merge/git-rebase-todo
-	"	1	0
-	^	7	5
-	.	7	0
-	+	1	27
-	+	7	4
-	+	6	0
-	+	7	0
-
-> ~/Documents/annex/.git/config
-	*	1477285292	0
-	"	15	1
-	.	16	0
-	+	16	0
-
-> ~/Documents/annex/.git/annex/config.tmp
-	"	1	0
-
-> ~/Documents/bsp/srs.sh
-	*	1474394406	0
-	"	3	102
-	^	3	103
-	.	3	103
-	+	3	103
-
-> ~/srs.sh
-	*	1474005835	0
-	"	17	27
-	^	17	28
-	.	17	27
-	+	6	37
-	+	5	29
-	+	6	31
-	+	7	0
-	+	17	27
-
-> /private/etc/gettytab
-	*	1472846055	0
-	"	210	48
-	^	210	49
-	.	210	48
-	+	210	62
-	+	208	2
-	+	210	0
-	+	210	48
-
-> /Library/LaunchDaemons/serialconsole.plist
-	*	1472799571	0
-	"	15	0
-	^	15	0
-	.	15	8
-	+	1	0
-	+	1	39
-	+	1	38
-	+	1	21
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	3
-	+	1	12
-	+	1	0
-	+	1	4
-	+	1	0
-	+	1	44
-	+	1	0
-	+	1	3
-	+	1	0
-	+	1	3
-	+	1	4
-	+	1	8
-	+	1	38
-	+	15	26
-	+	12	42
-	+	13	5
-	+	12	5
-	+	11	4
-	+	14	5
-	+	15	8
-	+	15	1
-	+	16	0
-	+	15	8
-
-> ~/quietlogin.sh
-	*	1472798382	0
-	"	1	0
-
-> /usr/bin/quietlogin.sh
-	*	1472798362	0
-	"	9	33
-	^	9	34
-	.	9	33
-	+	9	33
