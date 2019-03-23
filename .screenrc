@@ -47,4 +47,7 @@ vbell off
 startup_message off
 shelltitle "$|bash"
 
+# enable scrolling, hopefully
+termcapinfo xterm* ti@:te@
+
 hardstatus alwayslastline '%{= M} %H%{= G} %l %= %{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w   %= %{c}%d %D %{B}%c '

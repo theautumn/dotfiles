@@ -99,8 +99,8 @@ alias panel_gen='sudo python /home/sarah/panel_gen/panel_gen.py'
 alias apt='sudo apt-get'
 alias cs='sudo apt-cache search'
 alias asterisk='sudo asterisk'
-alias secast='telnet 127.0.0.1 3000'
 alias gitwtf='git log --graph --oneline --decorate=full --all'
+alias getip='curl https://api.ipify.org'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
