@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+
+# make loading this hopefully sane
+# set -euo pipefail
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -40,20 +45,13 @@ case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
 
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
-#force_color_prompt=yes
-
-if [ -n "$force_color_prompt" ]; then
-    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
-    else
-	color_prompt=
-    fi
+if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+# We have color support; assume it's compliant with Ecma-48
+# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+# a case would tend to support setf rather than setaf.)
+color_prompt=yes
+else
+color_prompt=
 fi
 
 if [ "$color_prompt" = yes ]; then
@@ -95,12 +93,16 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # My special fancy aliases
-alias panel_gen='sudo python /home/sarah/panel_gen/panel_gen.py'
+alias console='$HOME/.local/share/virtualenvs/panel_gen-ORoWpvfo/bin/python $HOME/panel_gen/console.py'
 alias apt='sudo apt-get'
 alias cs='sudo apt-cache search'
 alias asterisk='sudo asterisk'
 alias gitwtf='git log --graph --oneline --decorate=full --all'
 alias getip='curl https://api.ipify.org'
+alias imgcat='~/.local/bin/imgcat'
+alias please='sudo $(fc -ln -1)'
+alias cdr='cat /var/log/asterisk/cdr-csv/Master.csv | column -t -s, | tail -n 40 | less -S'
+PATH=$PATH:~/bin
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

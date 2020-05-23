@@ -7,7 +7,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " alternatively, pass a path where Vundle should install plugins
-call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
@@ -49,10 +49,8 @@ nnoremap <space> za
 " Press F4 to toggle highlighting on/off, and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 
-" Fuck off with that paste indenting shit
-:set pastetoggle=off
-
 " Make vim pretty for Python
+" Incidentally, this is why there are 'colors' and 'syntax' dirs in .vim/
 set t_Co=256
 colorscheme molokai
 highlight Comment cterm=bold
@@ -69,3 +67,5 @@ set expandtab"
 " play nice with YAML stuff
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
+" Mark col 80 and 120
+let &colorcolumn="80,".join(range(120,999),",")

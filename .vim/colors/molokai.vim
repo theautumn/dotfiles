@@ -27,7 +27,8 @@ hi IncSearch       guibg=#000000 guifg=#FF8D00
 " }}}
 " Syntax {{{
 hi Boolean         guifg=#AE81FF
-hi Comment         guifg=#5c7176
+hi Comment         guifg=#FF7B00
+" hi Comment         guifg=#5c7176
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
 hi String          guifg=#E6DB74
