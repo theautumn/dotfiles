@@ -101,7 +101,8 @@ alias gitwtf='git log --graph --oneline --decorate=full --all'
 alias getip='curl https://api.ipify.org'
 alias imgcat='~/.local/bin/imgcat'
 alias please='sudo $(fc -ln -1)'
-alias cdr='cat /var/log/asterisk/cdr-csv/Master.csv | column -t -s, | tail -n 40 | less -S'
+#alias cdr='cat /var/log/asterisk/cdr-csv/Master.csv | column -t -s, | tail -n 50 | less -S'
+alias cdr="tail -F -n 50 /var/log/asterisk/cdr-csv/Master.csv | awk -F, '{printf(\"%-18s  %-20s %-20s     %-50s     %-40s  %-15s   %-15s\\n\", "'$2, $3, $4, $5, $6, $7, $8)}'\'
 PATH=$PATH:~/bin
 
 # enable programmable completion features (you don't need to enable
