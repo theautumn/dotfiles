@@ -102,7 +102,8 @@ alias getip='curl https://api.ipify.org'
 alias imgcat='~/.local/bin/imgcat'
 alias please='sudo $(fc -ln -1)'
 #alias cdr='cat /var/log/asterisk/cdr-csv/Master.csv | column -t -s, | tail -n 50 | less -S'
-alias cdr="tail -F -n 50 /var/log/asterisk/cdr-csv/Master.csv | awk -F, '{printf(\"%-18s  %-20s %-20s     %-50s     %-40s  %-15s   %-15s\\n\", "'$2, $3, $4, $5, $6, $7, $8)}'\'
+#alias cdr="tail -F -n 50 /var/log/asterisk/cdr-csv/Master.csv | awk -F, '{printf(\"%-18s  %-20s %-20s     %-50s     %-40s  %-15s   %-15s\\n\", "'$2, $3, $4, $5, $6, $7, $8)}'\'
+alias cdr="tail -F -n 70 /var/log/asterisk/cdr-csv/Master.csv | awk -F, '{printf(\"%20s      %-18s  %-20s %-20s     %-50s %-20s  %-22s\\n\","'$10, $2, $3, $4, $5, $7, $9)}'\'
 PATH=$PATH:~/bin
 
 # enable programmable completion features (you don't need to enable
@@ -115,4 +116,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
 alias config='/usr/bin/git --git-dir=/home/sarah/.cfg/ --work-tree=/home/sarah'
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
